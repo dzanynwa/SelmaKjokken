@@ -642,9 +642,16 @@ footer{
 @media screen and (min-width: 601px) and (max-width: 991px) {
   .brand-logo img{
     width: 92%;
-  }}
+  }
+  #kartica{
+    margin-left: 1.6%;
+  }
+}
   @media screen and (max-width: 600px) {
     .brand-logo img{
       width: 125%;
+    }
+    #kartica{
+      margin-left: 1.6%;
     }
   }
