@@ -3,7 +3,6 @@
     box-sizing: border-box;
     }
     
-    
    nav{
     position: fixed;
     background: rgba(128, 124, 124, 0.2);
@@ -220,6 +219,10 @@
     .brand-logo img{
       width: 125%;
     }
+    #kartica{
+      margin-top: -20%;
+      margin-left: -1%;
+    }
   }
   @media screen and (min-width: 601px) and (max-width: 991px) {
     .brand-logo img{
@@ -276,6 +279,10 @@
       margin: 30px 2% 0px 2%;
       padding: 30px 15px 15px 15px;
     }
+    #kartica{
+      margin-top: -20%;
+      margin-left: -1%;
+    }
     
   }
   
@@ -309,7 +316,10 @@
 
     .upperImage2{
       margin-top: 2%; 
-      
+    }
+    #kartica{
+      margin-top: -20%;
+      margin-left: -1%;
     }
     
   }
@@ -467,19 +477,3 @@ figure.effect-sadie:hover p {
 .content-wrapper{
   margin-top: 0%;
 }
-
-@media screen and (min-width: 601px) and (max-width: 991px) {
-  .brand-logo img{
-    width: 92%;
-  }
-  
-}
-@media screen and (max-width: 600px) {
-    .brand-logo img{
-      width: 125%;
-    }
-    
-  }
-
-
-   
